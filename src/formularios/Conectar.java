@@ -19,7 +19,7 @@ public class Conectar {
                 //Cargamos el Driver MySQL
                 Class.forName("com.mysql.jdbc.Driver");
                 //Class.forName("org.gjt.mm.mysql.Driver");
-                conect = DriverManager.getConnection("jdbc:mysql://localhost:3307/satipo","root","teamo110593gnd");
+                conect = DriverManager.getConnection("jdbc:mysql://localhost:3307/satipo","root","deivisguerra");
                 System.out.println("conexion establecida");
                 JOptionPane.showMessageDialog(null,"Conectado");
                 //Cargamos el Driver Access
