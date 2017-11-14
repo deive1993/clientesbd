@@ -22,8 +22,8 @@ public class ing_cli extends javax.swing.JFrame {
     Connection conect;
    PreparedStatement s;
    String user = "root";
-   String password = "teamo110593gnd";
-   String url = "jdbc:mysql://localhost:3307/satipo";
+   String password = "";
+   String url = "jdbc:mysql://localhost:3306/registroclientes";
    String driver= "com.mysql.jdbc.Driver";
    
     public ing_cli() {
